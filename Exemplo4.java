@@ -1,3 +1,8 @@
+/*
+ * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
+ * - Code smell: SWITCH STATEMENTS
+ * - Violação do princípio SOLID: OPEN-CLOSED PRINCIPLE
+ */
 public class PaymentProcessor {
 
     public void processPayment(String paymentType) {

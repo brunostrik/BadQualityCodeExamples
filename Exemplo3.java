@@ -1,4 +1,12 @@
-public class OrderService {
+/*
+ * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
+ * - Code smell: LONG PARAMETER LIST
+ * - Code smell: DEAD CODE
+ * - Code smell: TEMPORARY FIELDS
+ * - Violação do princípio SOLID: SINGLE RESPONSABILITY
+ */
+
+ public class OrderService {
 
     public void processOrder(String orderId, String customerName, String customerEmail, 
                              String shippingAddress, String billingAddress, String paymentMethod, 
