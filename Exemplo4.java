@@ -1,7 +1,6 @@
 /*
  * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
- * - Code smell: SWITCH STATEMENTS
- * - Violação do princípio SOLID: OPEN-CLOSED PRINCIPLE
+ * - Code smell: Swicth Statements
  */
 public class PaymentProcessor {
 
