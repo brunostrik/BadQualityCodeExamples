@@ -1,8 +1,6 @@
 /*
  * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
- * - Code smell: DATA CLASS (Na classa CartaoConsumo)
- * - Violação do princípio SOLID: SINGLE RESPONSABILITY
- * - Violação do princípio: TELL DON'T ASK:
+ * - Code smells: Divergent change, Innapropriate intimacy
  */
 
 public class CartaoConsumo{
