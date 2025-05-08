@@ -1,14 +1,24 @@
 /*
  * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
- * - Code smell: LONG PARAMETER LIST
- * - Code smell: DEAD CODE
- * - Code smell: TEMPORARY FIELDS
- * - Violação do princípio SOLID: SINGLE RESPONSABILITY
+ * - Code smell: LARGE CLASS
  */
 
  public class OrderService {
 
-    public void processOrder(String orderId, String customerName, String customerEmail, 
+    public void processOrderPf(String orderId, String customerName, String customerCPF, String customerEmail, 
+                             String shippingAddress, String billingAddress, String paymentMethod, 
+                             double discount, boolean isGift, String giftMessage, 
+                             String deliveryInstructions) {
+
+        System.out.println("Processando pedido para " + customerName);
+        System.out.println("Enviando para: " + shippingAddress);
+        System.out.println("Email do cliente: " + customerEmail);
+
+        if (isGift) {
+            System.out.println("Este pedido é um presente. Mensagem: " + giftMessage);
+        }
+    }
+    public void processOrderPj(String orderId, String customerName, string customerCNPJ, String customerEmail, 
                              String shippingAddress, String billingAddress, String paymentMethod, 
                              double discount, boolean isGift, String giftMessage, 
                              String deliveryInstructions) {
