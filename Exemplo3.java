@@ -1,6 +1,6 @@
 /*
  * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
- * - Code smell: LARGE CLASS
+ * - Code smell: Large Class, Long Parameter List, Duplicated Code
  */
 
  public class OrderService {
