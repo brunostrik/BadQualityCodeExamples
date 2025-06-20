@@ -1,9 +1,3 @@
-/*
- * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
- * - Code smell: GOD CLASS ou LARGE CLASS
- * - Code smell: DATA CLASS
- */
-
 import java.util.ArrayList;
 import java.util.List;
 
