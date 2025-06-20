@@ -1,7 +1,3 @@
-/*
- * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
- * - Code smell: Swicth Statements
- */
 public class PaymentProcessor {
 
     public void processPayment(String paymentType) {
