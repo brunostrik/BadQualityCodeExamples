@@ -1,8 +1,3 @@
-/*
- * Este exemplo foi desenvolvido para apresentar os seguintes problemas de qualidade de código:
- * - Code smell: Long Parameter List, Duplicated Code
- */
-
  public class OrderService {
 
     public void processOrderPf(String orderId, String customerName, String customerCPF, String customerEmail, 
